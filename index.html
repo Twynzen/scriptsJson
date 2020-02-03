@@ -1,36 +1,35 @@
-
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <title>Laboratorio</title>
     <style>
-        section{
-            border: 1px solid black;
-        }
+      section {
+        border: 1px solid black;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="request.js"></script>
     <script type="text/javascript" src="getData.js"></script>
     <script>
-        data = {
-
-    }
-    request(data, 'users'); //csv
-    //request(data, 'posts'); //insert into
-    //request(data, 'photos'); //csv
-    request(data, 'comments'); //insert into
-    //request(data, 'todos');//csv
-    //request(data, 'albums');//csv
-
+      data = {};
+      request(data, "users"); //csv
+      //request(data, 'posts'); //insert into
+      //request(data, 'photos'); //csv
+      //request(data, 'comments'); //insert into
+      //request(data, 'todos');//csv
+      //request(data, 'albums');//csv
+      //ES BUENO MIRAR COMO EXTRAER LOS SUB OBJETOS DE ESOS JSON COMO ADDRES Y COMPANY
     </script>
-</body>
-
+  </body>
 </html>
